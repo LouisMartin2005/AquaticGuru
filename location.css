@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+.darken{
+    text-decoration: underline;
+}
+.ag{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: start;
+    width: 100%;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: end;
+    width: 100%;
+}
+
+li{
+    padding: 2%;
+    margin: 1%;
+    border-radius: 10%;
+
+}
+
+li a:hover{
+    color: #db3a34;
+}
+
+a{
+    text-decoration: none;
+    color: #177e89;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.header{
+    color: #177e89;  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:3% 0% 0% 0%;
+    font-size: 150%;
+}
+
+.head h1{
+    color: #177e89;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 300;
+    font-size: 220%;
+    text-decoration: underline;
+    padding: 2% 0%;
+}
+
+.head {
+    border:2px solid #177e89 ;
+    width: 80%;
+    margin: 5% auto;
+}
+
+.location{
+    color: #177e89;
+    padding-top: 3%;
+    display: flex;
+    padding-left: 10%;
+    font-weight: 300;
+    font-size: 200%;
+    margin: auto;
+}
+
+.paragraph{
+    color: #177e89;
+    display: flex;
+    padding: 1% 10% 1% 10%
+}
+
+.button{
+    padding: 1% 1% 3% 10%;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 1% 5%;
+    background-color: #177e89;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    background-color: #db3a34;
+    padding: 1.1% 5.1%;
+}
+
+@media screen and (max-width:800px){
+    .ag{
+        display: none;
+    }
+
+    .menu li:nth-child(3){
+        display: none;
+    }
+
+    .menu{
+        justify-content: space-between;
+        padding: 0%;
+        white-space: nowrap;
+    }
+
+    .paragraph{
+        display: none;
+    }
+
+    .header{
+        font-size: 100%;
+        border-top: 1px solid #177e89;
+    }
+
+    .head{
+        font-size: 90%;
+    }
+
+    .location{
+        font-size: 150%;
+        padding-left: 5%;
+    }
+
+    .button{
+        padding-left: 5%;
+    }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav>
+
+        <ul class="ag">
+            <li><a href="index.html">Aquatic Guru</a></li>
+        </ul>
+
+        <ul class="menu">
+            <li><a href="index.html" class="darken">Home</a></li>
+            <li><a href="content.html">Pricing</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="register.php">Registration</a></li>
+        </ul>
+
+    </nav>
+
+
+    <section class="landing page">
+
+        <div class="hook">
+            <header>LEARN TO<br>SWIM AS AN ADULT</header>
+
+            <p>Malaysia first ever swimming school that specliases in teaching adults how to swim<br>Be confident in the water with our personalized, one-on-one adult swimming classes</p>
+
+        </div>
+        
+        <div class="logo"><img src="ugly.png"></div>
+
+        <div class="button">
+            <button onclick="window.location.href='register.php'">Register now</button> 
+            <p>5207 adults like you have <br> already registered</p>
+        </div>
+
+
+    </section>
+
+    <div class="choose">
+        <h1>Why Choose Aquatic Guru :</h1>
+    </div>
+
+    <section class="benefit">
+
+
+        <div class="one">
+            <h1>Adult-Focused</h1>
+            <p>At AquaticGuru, you won't have to learn alongside kids. Our adult-only classes ensure a relaxed, non-awkward atmosphere where you can focus on learning comfortably and confidently.</p>
+        </div>
+
+        <div class="one">
+            <h1>Efficient Learning</h1>
+            <p>With one-on-one instruction at AquaticGuru, you'll learn at a rapid speed, ensuring you make the most of your time without the distractions of a group setting.</p>
+        </div>
+
+    </section>
+
+    <section class="socialproof">
+
+        <div class="firstsp">
+            <p>"The private session was incredibly beneficial. Having the instructor's full attention allowed me to progress much faster than I would have in a group class. The personalized feedback and tailored drills were exactly what I needed to improve my technique."</p>
+            <img src="profilepic.jpg">
+            <p>Yap Zhen Shan</p>
+            
+        </div>
+
+        <div class="secondsp">
+            <p>"I felt very comfortable throughout the session. The instructor was very attentive and adapted the pace according to my comfort level. I particularly appreciated the clear and calm instructions, which made it easier to follow and execute the techniques."</p>
+            <img src="profilepic.jpg">
+            <p>Muhammed Danish</p>
+            
+        </div>
+
+        <div class="thirdsp">
+            <p>"The one-on-one attention allowed me to work on my specific weaknesses. The instructor was very encouraging and provided practical tips that were easy to understand and apply. I feel much more confident in the water after just one session."</p>
+            <img src="profilepic.jpg">
+            <p>Qiao Hui</p>
+            
+        </div>
+
+    </section>
+
+    <section class="boday">
+
+        <div class="faq-container">
+            <h1>Frequently Asked Questions</h1>
+
+            <div class="faq">
+                <div class="question" onclick="toggleAnswer(0)">Can i still learn how to swim if I'm 60 years old ? <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="answer">Here at Aquatic Guru we would be overjoyed at the sight of knowing that you want to learn . You guys are why we are created in the first place. To give everyone a second chance. As long as you believe in yourself that you can learn then you most definitely will . With our instructor taught in the ways of teaching adults you need not to be afraid. </div>
+            </div>
+
+            <div class="faq">
+                <div class="question" onclick="toggleAnswer(1)">Can i bring a friend?<i class="fa-solid fa-chevron-down"></i></div>
+                <div class="answer">Of course if you're someone who is shy or prefer a learning companion to learn with you just let us know in advance. Your comfort and confidence matter to us, and we're here to support you every step of the way. </div>
+            </div>
+
+            <div class="faq">
+                <div class="question" onclick="toggleAnswer(2)">Is the program open to complete beginners?<i class="fa-solid fa-chevron-down"></i></div>
+                <div class="answer">We enthusiastically welcome individuals with no prior swimming experience. Our program is tailored to cater to complete beginners, providing a comfortable and encouraging space for you to start your swimming journey. </div>
+            </div>
+
+            <div class="faq">
+                <div class="question" onclick="toggleAnswer(3)">How do i register ?<i class="fa-solid fa-chevron-down"></i></div>
+                <div class="answer">You can either text us at +6011-1190 0352 or you can press the registration link at the top</div>
+            </div>
+
+            <div class="faq">
+                <div class="question" onclick="toggleAnswer(4)">How is the lesson usually conducted ?<i class="fa-solid fa-chevron-down"></i></div>
+                <div class="answer">Before each lesson , we will communicate with you for you to understand your current swimming proficiency and identify the optimal starting point for their learning journey .This way we can tailor the swimming lesson to your appropriate skill level.</div>
+            </div>
+
+        </div>
+
+    <script>
+        function toggleAnswer(index) {
+            var answers = document.getElementsByClassName("answer");
+            var answer = answers[index];
+            if (answer.style.display === "block") {
+                answer.style.display = "none";
+            } else {
+                answer.style.display = "block";
+            }
+        }
+    </script>
+
+
+    </section>
+
+    <section class="lastcall">
+        <h1>Your Journey Starts Now</h1>
+        <div class="buttoncontainer">
+            <button onclick="window.location.href='register.php'">Register now</button> 
+        </div>
+        </section>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #177e89;
+}
+
+nav{
+    display: flex;
+}
+
+.darken{
+    text-decoration: underline;
+}
+
+.ag{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: start;
+    width: 100%;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: end;
+    width: 100%;
+}
+
+li{
+    padding: 2%;
+    margin: 1%;
+    border-radius: 10%;
+
+}
+
+li a:hover{
+    color: #db3a34;
+}
+
+a{
+    text-decoration: none;
+    color: #177e89;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.hook{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+    padding: 15% 0% 0% 10%;
+
+}
+
+.hook header{
+    color: #177e89;
+    font-weight: bolder;
+    font-size: 300%;
+    width: 130%;
+}
+
+.hook p{
+    float: left;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 100%;
+    color: #177e89;
+    padding-top: 1%;
+
+}
+
+.button{
+    padding: 3% 0%;
+    float: right;
+    width: 50%;
+    display: flex;
+}
+
+.button button{
+    padding: 3% 4%;
+    background-color: #177e89;
+    color: white;
+    border: none;
+    font-size: large;
+}
+
+.button p{
+    padding: 2% 5%;
+    background-color: white;
+    color: #177e89;
+
+}
+
+img{
+    display: flex;
+    float: right;
+    width: 30%;
+    padding:0% 10% 5% 0% ;
+}
+
+button{
+    display: flex;
+}
+
+/* new section */
+.choose {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
+.choose h1{
+    font-size: 200%;
+}
+
+.benefit{
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.one h1{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    color: #177e89;
+    text-decoration: underline;
+}
+
+.one p{
+    background-color: white;
+    color: #177e89;
+    padding: 5% 30% 10% 30%;
+    text-align: justify;
+}
+
+
+/* new section */
+
+
+.socialproof{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15vh;
+    border-top: 1px solid #177e89;
+}
+
+.firstsp{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 2vw 5vw 5vw 20vw;
+}
+
+
+.firstsp img{
+    width: 20%;
+    height: 20%;
+}
+
+.firstsp :first-child{
+    background-color: white;
+    padding-bottom: 5vh;
+}
+
+
+.secondsp{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 2vw 5vw 5vw 5vw;
+}
+
+
+.secondsp img{
+    width: 20%;
+    height: 20%;
+}
+
+.secondsp :first-child{
+    background-color: white;
+    padding-bottom: 5vh;
+}
+
+
+.thirdsp{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 2vw 20vw 5vw 5vw;
+}
+
+
+.thirdsp img{
+    width: 20%;
+    height: 20%;
+}
+
+.thirdsp :first-child{
+    background-color: white;
+    padding-bottom: 5vh;
+}
+
+/* new section */
+
+
+.faq-container {
+    max-width: 30%;
+    margin: 0 auto;
+    background: white;
+    padding: 2vw;
+    border-radius: 8px;
+}
+
+.boday h1 {
+    text-align: center;
+    color: #177e89;
+    padding-bottom: 10vh;
+    font-size: 200%;
+}
+
+.faq {
+    border-bottom: 1px solid #ccc;
+    padding: 3vh 0vh 0vh 0vh;
+
+}
+
+.faq :first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.question {
+    cursor: pointer;
+    padding: 3vh;
+    background: white;
+    color: #177e89;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.answer {
+    display: none;
+    padding: 3vh;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+/* new section */
+
+.lastcall {
+    background-color: white;
+    padding-top: 20vh;
+}
+
+.lastcall h1{
+    text-align: center;
+    font-size: 200%;
+}
+
+
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+}
+
+.buttoncontainer button{
+    padding: 3vh 4vh;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #177e89;
+    color: white;
+}
+
+.buttoncontainer button:hover{
+    background-color: #db3a34;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:800px){
+    .ag{
+        display: none;
+    }
+
+    .menu li:first-child{
+        display: none;
+    }
+
+    .menu{
+        justify-content: space-between;
+        padding: 0%;
+        white-space: nowrap;
+    }
+
+    .button , .benefit , .socialproof ,.boday ,.choose{
+        display: none;
+    }
+
+    .lastcall{
+        float: left;
+        width: 100%;
+        padding-top: 0%;
+    }
+
+    .lastcall h1{
+        display: none;
+    }
+
+    
+}
